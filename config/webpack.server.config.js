@@ -15,6 +15,7 @@ module.exports = merge(baseConfig, {
     target: 'node',
     entry: "./src/serverEntry.js",
     output: {
+        filename: 'server-bundle.js',
         libraryTarget: 'commonjs2'
     },
     plugins: [

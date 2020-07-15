@@ -1,8 +1,7 @@
 <template>
-<div>
-    <h1>app.vue</h1>
-    <p>热更新</p>
-</div>
+    <div id="app">
+        <router-view class="view"></router-view>
+    </div>
 </template>
 
 <script>
